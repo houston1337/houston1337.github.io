@@ -5,6 +5,7 @@ body{
 	background:-webkit-linear-gradient(left, #114654,#65a073);
 	background:-moz-linear-gradient(left, #114654,#65a073);
 	background:-o-linear-gradient(left, #114654,#65a073);
+	background: no-repeat;
 }
 
 .current_day .less{
