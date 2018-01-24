@@ -38,6 +38,7 @@ body{
 	background: #e0e0e0;
 	background-size: 150% 150%;	
 	position: relative;
+
 }
 
 .current_day {
@@ -107,6 +108,59 @@ body{
 }
 @media screen and (max-width: 1200px){
 .alpha{
-width: 400px;
+width: 700px;
 margin: auto;
-}	
+}
+.a{
+	display: inline-block;
+	text-align: center;
+	margin: 1.5% ;
+	width: 675px;
+	height: 975px;
+	border-radius: 5px;
+	box-shadow: 0 5px 20px rgba(0,0,0,.25);
+	background: #e0e0e0;
+	background-size: 150% 150%;	
+	position: relative;
+	
+}
+.blue{
+	font-family: 'Dejavu Sans';
+	font-size: 30px;
+	font-weight: lighter;
+	color: #00aab0;
+	width: 125px;
+	text-align: center;
+}
+.white{
+	background: #e0e0e0;
+	height: 185px;
+	text-align: center;
+}
+.text{
+	font-family: 'Dejavu Sans';
+	font-size: 29px;
+	font-weight: lighter;
+	white-space:normal;
+}
+.text2{
+	font-family: 'Dejavu Sans';
+	font-size: 25px;
+	font-weight: lighter;
+	white-space:normal;
+}
+.dark2{
+	background: #d9d9d9;
+	height: 88px;
+	text-align: center;
+}
+.white2{
+	background: #e0e0e0;
+	height: 141px;
+	text-align: center;
+}
+.dark{
+	background: #d9d9d9;
+	height: 139px;
+	text-align: center;
+}
