@@ -106,6 +106,12 @@ body{
 	height: 50px;
 	text-align: center;
 }
+.me{
+	font-family: 'Dejavu Sans';
+	font-size: 8px;
+	font-weight: lighter;
+	color: rgba(255, 255, 255, 0.5);
+}
 @media screen and (max-width: 1200px){
 .alpha{
 width: 700px;
@@ -163,4 +169,5 @@ margin: auto;
 	background: #d9d9d9;
 	height: 139px;
 	text-align: center;
+}
 }
