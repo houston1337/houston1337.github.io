@@ -267,6 +267,7 @@ margin: auto;
 	font-family: 'Dejavu Sans';
 	font-size: 25px;
 	font-weight: lighter;
+	width: 552px;
 }
 .texttable3{
 	border-radius: 0  0 5px 0;
@@ -297,6 +298,7 @@ margin: auto;
 	border-radius: 5px;
 	text-transform: uppercase;
 	height: 200px;
+
 }
 
 }
