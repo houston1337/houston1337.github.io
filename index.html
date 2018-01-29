@@ -291,23 +291,22 @@
                else if (all_mins_cur >= 920 && all_mins_cur < 1010)/*5 пара*/
                 {
                 greeting = rasp[k-1][4];  
-                next =rasp[k-1][5];
+                next =rasp[k-1][4];
                 }
                   else if (all_mins_cur >=810 && all_mins_cur <820)/*ПЕРЕМЕНА*/
                 {
                 greeting = 'ПЕРЕМЕНА';
-                next =rasp[k-1][5];
+                next =rasp[k-1][4];
                 }
                else if (all_mins_cur >= 1 && all_mins_cur < 510)/*6 пара*/
                {
-               greeting = rasp[k-1][5]; 
-               next =rasp[k-1][5];
+               greeting = rasp[k-1][4]; 
+               next =rasp[k-1][4];
                }
                else{
                greeting = "error1";
                next="error1";
                }
-                
                document.getElementById('next').innerHTML = next; 
                document.getElementById('now').innerHTML = greeting; 
               </script>
