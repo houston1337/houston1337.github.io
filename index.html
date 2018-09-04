@@ -8,9 +8,13 @@
     <body vlink="#e0e0e0" link="#e0e0e0">
         <div class="now">
             <table cellspacing="0">
+            	<tr>
+            	  <td class="texttable1">Текущая неделя</td>
+                  <td class="texttable2" id='rasp'> </td>
+            	</tr>
                 <tr class="black">
-                  <td  class="texttable1">сейчас идет:</td>
-                  <td class="texttable2" id='now'></td>
+                  <td  class="whitetable">сейчас идет:</td>
+                  <td class="whitetable" id='now'></td>
                 </tr>
              <tr class="whitetable" >
                  <td class="texttable4">следующая пара:</td>
@@ -290,6 +294,28 @@
                }
                document.getElementById('next').innerHTML = next; 
                document.getElementById('now').innerHTML = greeting; 
+
               </script>
+              <script>
+				// текущее дата/время
+				var currentDateTime = new Date();
+				// время начала текущего года, в миллисекундах
+				var startTimeOfCurrentYear = (new Date(currentDateTime.getFullYear(), 0, 1)).getTime();
+				// текущее время в миллисекундах
+				var currentTime = currentDateTime.getTime();
+				// прошедшее время с начала года, в миллисекундах
+				var pastTimeOfStartCurrentYear = currentTime - startTimeOfCurrentYear;
+				// количество миллисекунд в одном часе
+				var hourOfMillisecs = 3600000;
+				// количество часов в одной неделе
+				var hoursOfOneWeek = 168;
+				
+				var nweek = (pastTimeOfStartCurrentYear / hourOfMillisecs / hoursOfOneWeek).toFixed(0);
+				if ((nweek & 1) == 0) {
+   				document.getElementById('rasp').innerHTML = ("числитель");
+				} else {
+			    document.getElementById('rasp').innerHTML = ("знаменатель");
+				}
+</script>
     </body>
 </html>
