@@ -12,7 +12,7 @@ body{
 	margin: auto;
 	border-radius: 10px;
 	width: 450px;
-	height: 200px;
+	height: 232px;
 	box-shadow: 0 5px 20px rgba(0,0,0,.25);
 	-moz-box-shadow: 0 5px 20px rgba(0,0,0,.25);
 	-o-box-shadow: 0 5px 20px rgba(0,0,0,.25);
@@ -49,8 +49,7 @@ body{
 	font-size: 15px;
 	font-weight: lighter;
 	text-align:  center;
-	white-space:normal;
-	background: #e0e0e0;
+	background: #d9d9d9
 }
 .texttable4{
 	width: 80px;
@@ -59,16 +58,22 @@ body{
 	font-size: 15px;
 	font-weight: lighter;
 	white-space:normal;
-	background: #e0e0e0;
+	background: #d9d9d9;
 	text-align:  center;
 	padding: 5px;
 }
 .whitetable{
 	background: #e0e0e0;
-	height: 100px;
+	height: 85px;
 	text-align: center;
 	border-radius: 5px;
 	text-transform: uppercase;
+	font-family: 'Dejavu Sans';
+	font-size: 15px;
+	font-weight: lighter;
+	white-space:normal;
+	text-align:  center;
+	padding: 5px;
 	
 }
 
@@ -235,7 +240,7 @@ margin: auto;
 }
 .text{
 	font-family: 'Dejavu Sans';
-	font-size: 29px;
+	font-size: 32px;
 	font-weight: lighter;
 	white-space:normal;
 }
@@ -266,7 +271,7 @@ margin: auto;
 	display: block;
 	margin: auto;
 	width: 675px;
-	height: 400px;
+	height: 475px;
 	border-radius: 5px;
 	box-shadow: 0 5px 20px rgba(0,0,0,.25)
 	-moz-box-shadow: 0 5px 20px rgba(0,0,0,.25);
@@ -320,5 +325,17 @@ margin: auto;
 	height: 200px;
 
 }
-
+.whitetable{
+	background: #e0e0e0;
+	text-align: center;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-family: 'Dejavu Sans';
+	font-size: 25px;
+	font-weight: lighter;
+	white-space:normal;
+	text-align:  center;
+	padding: 5px;
+	
+}
 }
