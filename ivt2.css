@@ -2,10 +2,11 @@
 	transition: all .7s;
 }
 body{
-	background:-webkit-linear-gradient(left, #114654,#65a073);
-	background:-moz-linear-gradient(left, #114654,#65a073);
-	background:-o-linear-gradient(left, #114654,#65a073);
-	}
+  background-image: -moz-linear-gradient( 130deg, rgb(0,180,255) 0%, rgb(234,255,0) 120%);
+  background-image: -webkit-linear-gradient( 130deg, rgb(0,180,255) 0%, rgb(234,255,0) 120%);
+  background-image: -ms-linear-gradient( 130deg, rgb(0,180,255) 0%, rgb(234,255,0) 120%);
+  }
+
 .now{
 	display: block;
 	margin: auto;
@@ -84,7 +85,7 @@ body{
 
 .current_day .less{
 	font-family: 'Dejavu Sans';
-	background:#00aab0 !important;
+	background:rgb(0,180,255) !important;
 	font-weight: lighter;
 	color: #ffffff;
 
@@ -120,12 +121,12 @@ body{
 
 .current_day {
 	border-radius: 7px;
-	border: 1px solid #00aab0;
+	border: 1px solid rgb(0,180,255);
 }
 
 .current_day .b {
 	font-family: 'Dejavu Sans';
-	background:#00aab0;
+	background:rgb(0,180,255);
 	font-weight: lighter;
 	color: #ffffff;
 	box-shadow: 0px 10px 20px -3px rgb(0, 67, 69,.45);
@@ -156,7 +157,7 @@ body{
 	font-family: 'Dejavu Sans';
 	font-size: 20px;
 	font-weight: lighter;
-	color: #00aab0;
+	color: rgb(0,180,255);
 	width: 55px;
 	text-align: center;
 }
@@ -223,7 +224,7 @@ margin: auto;
 	font-family: 'Dejavu Sans';
 	font-size: 30px;
 	font-weight: lighter;
-	color: #00aab0;
+	color: rgb(0,180,255);
 	width: 125px;
 	text-align: center;
 }
