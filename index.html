@@ -8,9 +8,13 @@
     <body vlink="#e0e0e0" link="#e0e0e0">
         <div class="now">
             <table cellspacing="0">
+            	<tr>
+            	  <td class="texttable1">Текущая неделя</td>
+                  <td class="texttable2" id='rasp'> </td>
+            	</tr>
                 <tr class="black">
-                  <td  class="texttable1">сейчас идет:</td>
-                  <td class="texttable2" id='now'></td>
+                  <td  class="whitetable">сейчас идет:</td>
+                  <td class="whitetable" id='now'></td>
                 </tr>
              <tr class="whitetable" >
                  <td class="texttable4">следующая пара:</td>
@@ -23,26 +27,37 @@
         <div class="a" data-day="1">
             <table cellspacing="0">
                 <tr>
-                    <td colspan="2" class="b">ПОНЕДЕЛЬНИК</td>
+                    <td colspan="3" class="b">ПОНЕДЕЛЬНИК</td>
                 </tr>
                 <tr class="white" para="0">
                     <td class="blue">8<sup>30</sup></td>
-                    <td class="text">Физика (л) ,3-01а Проф. Михайлова В. А. </td>
+                    <td  colspan="2" class="text">Физика (л) , Проф. Михайлова В. А., 3-01 А </td> 												<!--1пара-->
                 </tr>
                 <tr class="dark" para="1">
                     <td class="blue">10<sup>10 </sup></td>
-                    <td class="text">Языки высокого уровня (лаб), 1-12 м,
-                        Ст.преп. Бутенко М.А., Доц. Хохлова С.С., Ст.преп.
-                        Сиволобов С.В. 
+                    <td colspan="2" class="text">Дискретная математика(л), Маслюкова О.Н, 3-02 М</td>											<!--2пара-->	
+                </tr>
+                <tr class="white2" para="2">
+                    <td rowspan="2" class="blue">12<sup>00</sup></td>	
+                    <td class="text2">Физика (лаб), асс. Лебедева О.С.,2-07 К																	<!--3пара-->
+                    </td>
+                    <td class="text2">Иностранный язык (лаб), Ладонина Е.Ю.,4-02 А </td>
+                </tr>
+                <tr>
+                    <td para="2" class="text2"> Иностранный язык (лаб), Курченкова Е.А.,4-02 А</td>
+                    <td class="text2" para="2">Физика (лаб), асс. Лебедева О.С.,2-07 К
                     </td>
                 </tr>
-                <tr class="white" para="2">
-                    <td class="blue">12<sup>00</sup></td>
-                    <td class="text">История(л), 4-29г, Доц. Фурман Е. Л.</td>
+                <tr class="dark2" para="3">
+                    <td rowspan="2" class="blue">13<sup>40</sup></td>
+                    <td class="text2">Физика (лаб), асс. Лебедева О.С.,2-07 К																	<!--4пара-->
+                    </td>
+                    <td class="text2">Иностранный язык (лаб), Ладонина Е.Ю.,4-02 А</td>
                 </tr>
-                <tr class="dark" para="3">
-                    <td class="blue">13<sup>40</sup></td>
-                    <td></td>
+                <tr class="dark2">
+                    <td para="3" class="text2"> Иностранный язык (лаб), Курченкова Е.А.,4-02 А</td>
+                    <td class="text2" para="3">Физика (лаб), асс. Лебедева О.С.,2-07 К
+                    </td>
                 </tr>
                 <tr class="white" para="4">
                     <td class="blue">15<sup>20</sup></td>
@@ -58,21 +73,19 @@
                 </tr>
                 <tr class="white" para="0">
                     <td class="blue">8<sup>30</sup></td>
-                    <td class="text">Математический анализ(л), доц.Корольков С.А., 4-08А</td>
+                    <td class="text">Объектно-ориентированное программирование(л). Феськов С.В., 3-02 М</td>
                 </tr>
                 <tr class="dark" para="1">
                     <td class="blue">10<sup>10 </sup></td>
-                    <td class="text">Иностранный язык (лаб), доц. Ашихманова Н.А., 33-08 А
-                        доц. Курченкова Е.А., 3-08 А 
-                    </td>
+                    <td class="text">Математическое моделирование физических систем(л), Тен А.В., 3-02 М</td>
                 </tr>
                 <tr class="white" para="2">
                     <td class="blue">12<sup>00</sup></td>
-                    <td class="text"></td>
+                    <td class="text">Физическая культура</td>
                 </tr>
                 <tr class="dark" para="3">
                     <td class="blue">13<sup>40</sup></td>
-                    <td></td>
+                    <td class="text">Математическое моделирование физических систем(пр), Тен А.В., 2-11 М</td>
                 </tr>
                 <tr class="white" para="4">
                     <td class="blue">15<sup>20</sup></td>
@@ -88,7 +101,7 @@
                 </tr>
                 <tr class="white" para="0">
                     <td class="blue">8<sup>30</sup></td>
-                    <td class="text"></td>
+                    <td class="text">  </td>
                 </tr>
                 <tr class="dark" para="1">
                     <td class="blue">10<sup>10 </sup></td>
@@ -96,7 +109,7 @@
                 </tr>
                 <tr class="white" para="2">
                     <td class="blue">12<sup>00</sup></td>
-                    <td class="text">Физика (пр), Aсс. Лебедева  О.С., 2-04 М</td>
+                    <td class="text">Физика (пр), Aсс. Лебедева О.С., 2-04 М</td>
                 </tr>
                 <tr class="dark" para="3">
                     <td class="blue">13<sup>40</sup></td>
@@ -150,29 +163,26 @@
                 </tr>
                 <tr class="white" para="0">
                     <td class="blue">8<sup>30</sup></td>
-                    <td class="text"></td>
+                    <td class="text">Объектно-ориентированное программирование(лаб),Юданов В.В., Кузьменко А.Ю., Титов А.В.,1-12 М</td><!--1пара-->
                 </tr>
                 <tr class="dark" para="1">
                     <td class="blue">10<sup>10 </sup></td>
-                    <td class="text2">Технологии сети Интернет (лаб), 1-06 М
-                        ст.преп. Сиволобов С.В., асс. Андреева И.И., асс.
-                        Грицкевич М.В
-                    </td>
+                    <td class="text2">Метрология, стандартизация, сертификация(л),Боровков Д.П.,2-11 М </td> 							<!--2пара-->
                 </tr>
                 <tr class="white2" para="2">
                     <td rowspan="2" class="blue">12<sup>00</sup></td>
-                    <td colspan="2" class="text2">Технологии сети Интернет (л), доц. Писарев А.В., 3-02 М</td>
+                    <td colspan="2" class="text2">Метрология, стандартизация, сертификация(лаб),Боровков Д.П., Хоперсков А.В.,2-11 М </td><!--3пара-->
                 </tr>
                 <tr class="white2" para="2">
-                    <td colspan="2" class="text2">Языки высокого уровня(л),доц.Храпов С.С.,3-02М</td>
+                    <td colspan="2" class="text2"></td>																					<!--4пара-->
                 </tr>
                 <tr class="dark" para="3">
                     <td class="blue">13<sup>40</sup></td>
-                    <td class="text">Физическая культура</td>
+                    <td class="text"></td>																								<!--5пара-->
                 </tr>
                 <tr class="white2" para="4">
                     <td class="blue">15<sup>20</sup></td>
-                    <td></td>
+                    <td class="text"></td>																								<!--6пара-->
                 </tr>
             </table>
         </div>
@@ -197,11 +207,11 @@
             [15, 20, 16, 50]
             ];
             var rasp = [
-            ['Физика (л) ,3-01а Проф. Михайлова В. А.','Языки высокого уровня (лаб), 1-12 м, Ст.преп. Бутенко М.А., Доц. Хохлова С.С., Ст.преп. Сиволобов С.В.','История(л), 4-29г, Доц. Фурман Е. Л.','',''],
-            ['Математический анализ(л), доц.Корольков С.А., 4-08А','Иностранный язык (лаб), доц. Ашихманова Н.А., 33-08 А доц. Курченкова Е.А., 3-08 А','','',''],
-            ['','','Физика (пр), Aсс. Лебедева О.С., 2-04 М','Менеджмент,Трилицкая О.Ю.,4-29 Г',''],
-            ['','Физическая культура', 'Дискретная математика (пр) Ст преп. 2-11М','', ' '],
-            ['','Технологии сети Интернет (лаб), 1-06 М ст.преп. Сиволобов С.В., асс. Андреева И.И., асс. Грицкевич М.В','Технологии сети Интернет (л), доц. Писарев А.В., 3-02 М Языки высокого уровня(л),доц.Храпов С.С.,3-02М' ,'Физическая культура','']
+            /*пн*/['Физика (л) , Проф. Михайлова В. А.,3-01 А','Дискретная математика(л), Маслюкова О.Н, 3-02 М','Физика(лаб),Лебедева О.С.,2-07 К;  Иностранный язык','Физика(лаб),Лебедева О.С.,2-07 К;      Иностранный язык',''],
+            /*вт*/['Объектно-ориентированное программирование(л). Феськов С.В., 3-02 М','Математическое моделирование физических систем, Тен А.В., 3-02 М','Физическая культура','Математическое моделирование физических систем(пр), Тен А.В., 2-11 М',''],
+            /*ср*/['','','Физика (пр), Aсс. Лебедева О.С., 2-04 М','Менеджмент,Трилицкая О.Ю.,4-29 Г',''],
+            /*чт*/['','Физическая культура', 'Дискретная математика (пр) Ст преп. 2-11М','', ' '],
+            /*пт*/['Объектно-ориентированное программирование(лаб),Юданов В.В., Кузьменко А.Ю., Титов А.В.,1-12 М','Метрология, стандартизация, сертификация(л),Боровков Д.П.,2-11 М','Метрология, стандартизация, сертификация(лаб),Боровков Д.П., Хоперсков А.В.,2-11 М (числитель)' ,'','']
             ];
                 for(var i = 1; i<=6;i++)
                 {
@@ -290,6 +300,28 @@
                }
                document.getElementById('next').innerHTML = next; 
                document.getElementById('now').innerHTML = greeting; 
+
               </script>
+              <script>
+				// текущее дата/время
+				var currentDateTime = new Date();
+				// время начала текущего года, в миллисекундах
+				var startTimeOfCurrentYear = (new Date(currentDateTime.getFullYear(), 0, 1)).getTime();
+				// текущее время в миллисекундах
+				var currentTime = currentDateTime.getTime();
+				// прошедшее время с начала года, в миллисекундах
+				var pastTimeOfStartCurrentYear = currentTime - startTimeOfCurrentYear;
+				// количество миллисекунд в одном часе
+				var hourOfMillisecs = 3600000;
+				// количество часов в одной неделе
+				var hoursOfOneWeek = 168;
+				
+				var nweek = (pastTimeOfStartCurrentYear / hourOfMillisecs / hoursOfOneWeek).toFixed(0);
+				if ((nweek & 1) == 0) {
+   				document.getElementById('rasp').innerHTML = ("числитель");
+				} else {
+			    document.getElementById('rasp').innerHTML = ("знаменатель");
+				}
+</script>
     </body>
 </html>
