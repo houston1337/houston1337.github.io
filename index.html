@@ -316,7 +316,7 @@
 				// количество часов в одной неделе
 				var hoursOfOneWeek = 168;
 				
-				var nweek = (Math.floor((pastTimeOfStartCurrentYear / hourOfMillisecs / hoursOfOneWeek).toFixed(1)));
+				var nweek = (Math.floor((pastTimeOfStartCurrentYear / hourOfMillisecs / hoursOfOneWeek).toFixed(3)));
 				if ((nweek & 1) == 0) {
    				document.getElementById('rasp').innerHTML = ("числитель");
 				} else {
