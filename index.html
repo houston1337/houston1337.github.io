@@ -321,6 +321,7 @@
                 }
                  else if (all_mins_cur >= 820 && all_mins_cur <910)/*4 пара*/
                 {
+
                   greeting = rasp[k-1][3];
                  next =rasp[k-1][4];  
                 }
@@ -334,16 +335,11 @@
                 greeting = rasp[k-1][4];  
                 next =rasp[k-1][4];
                 }
-                  else if (all_mins_cur >=810 && all_mins_cur <820)/*ПЕРЕМЕНА*/
+              else if (all_mins_cur >= 1 && all_mins_cur < 60)
                 {
-                greeting = 'ПЕРЕМЕНА';
-                next =rasp[k-1][4];
+                greeting = "че не спишь блин блинский?!";  
+                next ="взросленький уже?";
                 }
-               else if (all_mins_cur >= 1 && all_mins_cur < 510)/*6 пара*/
-               {
-               greeting = rasp[k-1][4]; 
-               next =rasp[k-1][4];
-               }
                else{
                greeting = "";
                next="";
