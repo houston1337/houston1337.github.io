@@ -363,10 +363,12 @@
 				var hoursOfOneWeek = 168;
 				
 				var nweek = (Math.floor((pastTimeOfStartCurrentYear / hourOfMillisecs / hoursOfOneWeek).toFixed(3)));
-				if ((nweek & 1) == 0) {
-   				document.getElementById('rasp').innerHTML = ("знаменатель");
+				//alert(nweek&1);
+				if ((nweek&1) == 0) 
+				{
+   				document.getElementById('rasp').innerHTML = ("числитель");
 				} else {
-			    document.getElementById('rasp').innerHTML = ("числитель");
+			    document.getElementById('rasp').innerHTML = ("знаменатель");
 				}
 </script>
     </body>
