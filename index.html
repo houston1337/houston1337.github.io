@@ -418,8 +418,8 @@ Date.prototype.getWeek = function (dowOffset) {
     return weeknum;
 };
 var mydate = new Date(); 
-//alert(mydate.getWeek()&1);
-if (mydate.getWeek()&1==0) 
+//alert(mydate.getWeek());
+if (mydate.getWeek()%2==1) 
 				{
    				document.getElementById('rasp').innerHTML = ("числитель");
 				} else {
