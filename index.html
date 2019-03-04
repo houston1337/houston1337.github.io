@@ -413,10 +413,12 @@ Date.prototype.getWeek = function (dowOffset) {
         }
     }
     else {
-        weeknum = Math.floor((daynum+day-1)/7);
+        weeknum = Math.floor((daynum+day)/7);
     }
+   
     return weeknum;
 };
+
 var mydate = new Date(); 
 //alert(mydate.getWeek());
 if (mydate.getWeek()%2==1) 
