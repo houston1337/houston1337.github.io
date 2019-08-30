@@ -107,7 +107,7 @@ body{
 	text-align:  center;
 
 }
-
+/*цыет блока  - светло серый*/
 .a{
 	display: inline-block;
 	text-align: center;
@@ -123,6 +123,44 @@ body{
 	position: relative;
 
 }
+/*цвет блока темно серый*/
+.a2{
+	display: inline-block;
+	text-align: center;
+	margin: 1.5% ;
+	width: 350px;
+	height: 530px;
+	border-radius: 5px;
+	box-shadow: 0 5px 20px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 5px 20px rgba(0,0,0,.25);
+	-o-box-shadow: 0 5px 20px rgba(0,0,0,.25);
+	-webkit-box-shadow: 0 5px 20px rgba(0,0,0,.25);
+	background: #d9d9d9;
+	position: relative;
+
+}
+
+
+
+/*название дня недели*/
+.b{
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	font-weight: 600;
+	color: #1f1f1f;
+	background: #d9d9d9;
+	height: 80px;
+	width: 352px;
+	box-shadow: 0px 10px 20px -3px rgba(100, 100, 100, .45);
+	-moz-box-shadow: 0 5px 20px rgba(100, 100, 100, .45);
+	-o-box-shadow: 0 5px 20px rgba(100, 100, 100, .45);
+	-webkit-box-shadow: 0 5px 20px rgba(100, 100, 100, .45);
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+	text-transform: uppercase;
+	position: relative;
+}
+
 
 .current_day {
 	border-radius: 7px;
@@ -141,23 +179,7 @@ body{
 
 }
 
-.b{
-	font-family: 'Poiret One', cursive;
-	font-size: 30px;
-	font-weight: 600;
-	color: #1f1f1f;
-	background: #d9d9d9;
-	height: 80px;
-	width: 352px;
-	box-shadow: 0px 10px 20px -3px rgba(100, 100, 100, .45);
-	-moz-box-shadow: 0 5px 20px rgba(100, 100, 100, .45);
-	-o-box-shadow: 0 5px 20px rgba(100, 100, 100, .45);
-	-webkit-box-shadow: 0 5px 20px rgba(100, 100, 100, .45);
-	text-align: center;
-	border-radius: 5px 5px 0 0;
-	text-transform: uppercase;
-	position: relative;
-}
+
 .blue{
 	font-family: 'Poiret One', cursive;
 	font-size: 20px;
@@ -238,6 +260,23 @@ margin: auto;
 	position: relative;
 	
 }
+.a2{
+	display: inline-block;
+	text-align: center;
+	margin: 1.5% ;
+	width: 675px;
+	height: 930px;
+	border-radius: 5px;
+	box-shadow: 0 5px 20px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 5px 20px rgba(0,0,0,.25);
+	-o-box-shadow: 0 5px 20px rgba(0,0,0,.25);
+	-webkit-box-shadow: 0 5px 20px rgba(0,0,0,.25);
+	background: #d9d9d9;
+	background-size: 150% 150%;	
+	position: relative;
+	
+}
+
 .blue{
 	font-family: 'Poiret One', cursive;
 	font-size: 30px;
@@ -361,5 +400,8 @@ margin: auto;
 	font-size: 29px;
 	font-weight: 600;
 	white-space:normal;
+}
+table{
+	width: 100%;
 }
 }
