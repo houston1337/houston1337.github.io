@@ -13,7 +13,7 @@ body{
 	margin: auto;
 	border-radius: 10px;
 	width: 450px;
-	height: 232px;
+	height: 285px;
 	box-shadow: 0 5px 20px rgba(0,0,0,.25);
 	-moz-box-shadow: 0 5px 20px rgba(0,0,0,.25);
 	-o-box-shadow: 0 5px 20px rgba(0,0,0,.25);
@@ -50,7 +50,9 @@ body{
 	font-size: 15px;
 	font-weight: 600;
 	text-align:  center;
-	background: #d9d9d9
+	background: #e0e0e0;
+	padding: 5px;
+
 }
 .texttable4{
 	width: 80px;
@@ -59,22 +61,34 @@ body{
 	font-size: 15px;
 	font-weight: 600;
 	white-space:normal;
+	background: #e0e0e0;
+	text-align:  center;
+	padding: 5px;
+}
+.texttablemidle
+{
+	width: 80px;
+	border-radius: 0 0 0 0;
+	font-family: 'Poiret One', cursive;
+	font-size: 15px;
+	font-weight: 600;
+	white-space:normal;
 	background: #d9d9d9;
 	text-align:  center;
 	padding: 5px;
 }
+
 .whitetable{
 	background: #e0e0e0;
 	height: 85px;
 	text-align: center;
-	border-radius: 5px;
+	padding: 5px;
 	text-transform: uppercase;
 	font-family: 'Poiret One', cursive;
 	font-size: 15px;
 	font-weight: 600;
 	white-space:normal;
 	text-align:  center;
-	padding: 5px;
 	
 }
 
@@ -328,7 +342,7 @@ margin: auto;
 	display: block;
 	margin: auto;
 	width: 675px;
-	height: 475px;
+	height: 450px;
 	border-radius: 5px;
 	box-shadow: 0 5px 20px rgba(0,0,0,.25)
 	-moz-box-shadow: 0 5px 20px rgba(0,0,0,.25);
@@ -369,13 +383,25 @@ margin: auto;
 	text-align: center;
 	border-radius: 5px;
 	text-transform: uppercase;
-	height: 200px;
+	height: 108px;
 
+}
+.texttablemidle
+{
+	width: 80px;
+	border-radius: 0 0 0 0;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	font-weight: 600;
+	white-space:normal;
+	background: #d9d9d9;
+	text-align:  center;
+	padding: 5px;
 }
 
 .black{
 	background: #d9d9d9;
-	height:200px;
+	height:160px;
 	text-align: center;
 	border-radius: 5px;
 	text-transform: uppercase;
@@ -385,7 +411,6 @@ margin: auto;
 .whitetable{
 	background: #e0e0e0;
 	text-align: center;
-	border-radius: 5px;
 	text-transform: uppercase;
 	font-family: 'Poiret One', cursive;
 	font-size: 25px;
