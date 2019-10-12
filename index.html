@@ -436,11 +436,25 @@
                }
                document.getElementById('next').innerHTML = next; 
                document.getElementById('now').innerHTML = greeting;
-               if(time != '')
+               if(time<20 && time>11)
                {
                	document.getElementById('end').innerHTML = time + ' минут'; 
-               } 
-               
+               }
+
+               else if (time % 10 == 1)
+               {
+               	document.getElementById('end').innerHTML = time + ' минута'; 
+               }
+               else if (time % 10 == 2 || time % 10 == 3 || time % 10 == 4 )
+               {
+               	document.getElementById('end').innerHTML = time + ' минуты'; 
+               }
+               else if (time != '')
+               {
+               	document.getElementById('end').innerHTML = time + ' минут';
+               }
+
+
 
               </script>
              <!-- <script>
